@@ -10,21 +10,13 @@ private int capacity;
         this.capacity = capacity;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
     @Override
     public String getVehicleName() {
-        return getName();
+        return this.name;
     }
 
     @Override
     public int getVehicleCapacity() {
-        return getCapacity();
+        return this.capacity;
     }
 }
