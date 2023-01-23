@@ -17,4 +17,14 @@ private int capacity;
     public int getCapacity() {
         return capacity;
     }
+
+    @Override
+    public String getVehicleName() {
+        return getName();
+    }
+
+    @Override
+    public int getVehicleCapacity() {
+        return getCapacity();
+    }
 }
